@@ -7,7 +7,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 
 # 1. API Configuration
-os.environ["GEMINI_API_KEY"] = "AIzaSyD9ivtqQJfFsAJzytdl4fjqiiHaeBWldLI" # <-- Apni Key Re-enter krain
+# API Configuration taken automatically from Streamlit Secrets # <-- Apni Key Re-enter krain
 
 # 2. Database Core
 def get_db_connection():
